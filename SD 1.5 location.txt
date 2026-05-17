@@ -1,0 +1,3 @@
+windows + R, the paste the below text and enter
+
+explorer %USERPROFILE%\.cache\huggingface\hub

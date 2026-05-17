@@ -1,0 +1,23 @@
+Production-Grade Script Prompts
+Variant: Handheld Eye-Level Inspection Shot
+
+
+
+Prompt:
+
+A realistic close-up handheld smartphone photograph of a prominent concrete crack stretching across a building's load-bearing exterior wall, eye-level perspective. The shot is taken from a human standing distance, capturing true-to-life structural damage. The vertical cement wall surface is unpolished and weathered, showing grit, micro-fractures branching off the main fault, staining from rain runoff, and a rough masonry texture. The primary crack is uneven and jagged, cutting deeply into the substrate with visible depth. Natural overcast daylighting creates soft, realistic shadows inside the fracture line. Sharp focus, clear details on stone grains, documentary style.
+
+Negative Prompt:
+
+aerial view, satellite photo, top-down perspective, smooth render, polished stucco, perfect wall, clean surface, blurry, out of focus, artifact loop, high-contrast static, noise patterns, uniform worm-like texture, over-saturated, deep black deep artifact lines, cartoon, 3D model, watercolor.
+
+
+
+Variant: Drone Drone-View Structural Scan
+Prompt:
+
+A close-up, sharp drone inspection photograph capturing a severe, long concrete crack propagating vertically up a weathered building exterior wall, structural degradation. The view is framed from a slight downward aerial angle as if from an inspection quadcopter hovering near the facade. The concrete panel shows clear signs of environmental wear, rough surface texture, areas of spalling concrete revealing coarse aggregate, micro-pitting, and chalky surface efflorescence. The main fracture line is deep, dark, and jagged, with natural direct daylighting casting sharp micro-shadows within the fault line to emphasize its depth. 8k resolution, crisp technical focus, industrial structural assessment photo aesthetic.
+
+Negative Prompt:
+
+smooth texture, uniform plaster, new construction, freshly painted wall, blurry, out of focus, artifact loop, high-contrast static, noise patterns, uniform worm-like texture, over-saturated, deep black deep artifact lines, illustration, drawing, CGI, digital art, stylized, ground level eye-contact shot, portrait framing.
