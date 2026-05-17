@@ -1,0 +1,19 @@
+1. optimizer.bin - 3.82 MB
+
+What it is: The saved state of your optimization algorithm (e.g., AdamW). It tracks gradient histories so you can resume training smoothly if a script crashes. It is incredibly heavy and completely useless for generating final images.
+
+2. random_states_0.pkl - 14.0 KB
+
+What it is: A tiny snapshot tracking Python, NumPy, and PyTorch random seed states to ensure mathematically identical resume behaviors during training loops.
+
+3. scaler.pt - 988 bytes
+
+What it is: The tracking history for your mixed-precision (fp16) loss scaler, used to prevent numerical underflow calculations during backward training passes.
+
+4. scheduler.bin - 1000 bytes
+
+What it is: The internal state tracker for your learning rate scheduler (e.g., cosine decay tracking).
+
+5. model.safetensors - 1.6 GB
+
+Note on this one: If your script generated a model.safetensors inside this subfolder alongside the pytorch_lora_weights.safetensors, it's typically a redundant snapshot of the un-adapted base layer states captured during saving. The standalone pytorch_lora_weights.safetensors contains everything required for your custom LoRA adapter to work.

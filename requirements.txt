@@ -1,0 +1,18 @@
+# Core AI Stack (CUDA 12.4 compatible)
+--index-url https://download.pytorch.org/whl/cu124
+torch>=2.5.1
+torchvision>=0.20.1
+torchaudio>=2.5.1
+
+# Generative AI Libraries
+diffusers>=0.31.0
+transformers>=4.46.0
+accelerate>=1.1.0
+peft>=0.13.0
+safetensors>=0.4.5
+xformers>=0.0.28.post3
+
+# UI and Image Handling
+streamlit>=1.40.0
+Pillow>=10.4.0
+numpy<2.0.0
