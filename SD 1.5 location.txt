@@ -1,8 +1,2 @@
-<<<<<<< HEAD
 windows + R, the paste the below text and enter
-
-=======
-windows + R, the paste the below text and enter
-
->>>>>>> 5571769d2f931f673f57032c6633c1233b71f731
 explorer %USERPROFILE%\.cache\huggingface\hub
